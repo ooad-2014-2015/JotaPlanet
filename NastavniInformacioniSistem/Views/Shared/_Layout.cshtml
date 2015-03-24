@@ -32,8 +32,13 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
+
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <div style="text-align:center">
+                <div class="col-md-5"></div>
+                <div class="col-md-1" style="background-image:url('../../Content/JotaPlanetLogo2.png'); width:50px; height:50px; background-repeat:round"></div>
+                <span class="col-md-2" style="margin-top:15px;">&copy; @DateTime.Now.Year - JotaPlanet</span>
+            </div>
         </footer>
     </div>
 
